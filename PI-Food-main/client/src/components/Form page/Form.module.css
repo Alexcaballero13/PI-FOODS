@@ -1,0 +1,105 @@
+.Form{
+    background-image: url('../../assest/FormPage.svg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 100%;
+    background-color: rgba(250, 128, 114, 0.39);
+    height: 100vh;
+    width: 100%;
+    margin:0%;
+    border:0%;
+}
+
+.Form1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 15vh;
+}
+
+.titlenewrecipe{
+    font-size: 400%;
+    color: #7a2636;
+}
+
+.totalLabels{
+    margin-right: 1vh;
+    margin-left: 1vh;
+    font-size: xx-large;
+}
+
+.inputlabel{
+    display: flex;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.inputsearch{
+    margin-right: 2vh;
+    background-color: rgba(252, 149, 149, 0.514);
+    height: 4vh;
+    width: 35vh;
+    border-radius: 2vh;
+    border: 0.5vh;
+    }
+
+.inputsearch1{
+    margin-right: 2vh;
+    background-color: rgba(252, 149, 149, 0.514);
+    height: 15vh;
+    width: 35vh;
+    border-radius: 2vh;
+    border: 0.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.inputlabel1{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 100%;
+    }
+
+.h1form{
+    font-size: 150%;
+}
+
+.inputlabel2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2vh;
+}
+.Buttontoforms{
+    background-color: rgba(252, 149, 149, 0.514);
+    height: 4vh;
+    width: 35vh;
+    border-radius: 2vh;
+    border: 0.5vh;
+    font-family:'Dancing Script', cursive;
+    font-size: x-large;
+    cursor: pointer;
+    color: #7a2636;
+    margin-top: 3vh;
+}
+.Buttontoforms:hover{
+    background-color: rgb(240, 127, 127);
+    height: 4vh;
+    width: 35vh;
+    border-radius: 2vh;
+    border: 0.5vh;
+    font-family:'Dancing Script', cursive;
+    font-size: x-large;
+    cursor: pointer;
+    color: #7a2636;
+    margin-top: 3vh;
+}
+.buttonanddmessage{
+    display: flex;
+}
+.onlymessage{
+    position: relative;
+    top: 2vh;
+    left: 15vh;
+}

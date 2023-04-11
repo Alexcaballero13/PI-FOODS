@@ -1,0 +1,26 @@
+.Pages{
+    margin-bottom: 4vh;
+}
+.buttonPages{
+    background-color: rgba(252, 149, 149, 0.514);
+    height: 4vh;
+    width: 4vh;
+    border-radius: 0.5vh;
+    border: 0.5vh;
+    font-family:'Dancing Script', cursive;
+    font-size: medium;
+    cursor: pointer;
+    color: #7a2636;
+}
+
+.buttonPages:hover{
+    background-color: rgba(253, 212, 212, 0.514);
+    height: 4vh;
+    width: 4vh;
+    border-radius: 0.5vh;
+    border: 0.5vh;
+    font-family:'Dancing Script', cursive;
+    font-size: medium;
+    cursor: pointer;
+    color: #7a2636;
+}

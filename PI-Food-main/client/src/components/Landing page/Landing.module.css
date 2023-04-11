@@ -1,0 +1,45 @@
+.entrance {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: url('../../assest/landingPage.svg');
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: 50%;
+    background-color: rgba(250, 128, 114, 0.39);
+    height: 100vh;
+    width: 100%;
+}
+
+.button1{
+    background-color: #ffffff;
+    border-radius: 3vh;
+    border-color: #ffffff;
+    position: relative;
+    bottom: 30vh;
+    right: 15vh;
+    width: 28vh;
+    height: 6vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #f58181;
+    border-radius: 3vh;
+    border-color: #f58181;
+    position: relative;
+    bottom: 30vh;
+    right: 15vh;
+    width: 28vh;
+    height: 6vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.buttonlanding{
+    position: relative;
+    right: 126vh;
+    bottom: 32vh;
+    font-size: 1000%;
+}

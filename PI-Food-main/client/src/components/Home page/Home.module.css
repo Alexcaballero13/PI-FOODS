@@ -1,0 +1,163 @@
+.Home{
+    background-image: url('../../assest/HomePage.svg');
+    background-repeat: no-repeat;
+    background-size: 77%;
+    background-position: 50%;
+    background-color: rgba(250, 128, 114, 0.39);
+    height: 100%;
+    width: 100%;
+}
+
+.recipes{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.searchbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.titlesearchbar{
+    font-size: 400%;
+    color: #7a2636;
+}
+
+.searchbarbutton{
+    display: flex;
+}
+
+.inputsearch{
+margin-right: 2vh;
+background-color: rgba(252, 149, 149, 0.514);
+height: 4vh;
+width: 35vh;
+border-radius: 2vh;
+border: 0.5vh;
+}
+
+.buttonsearch{
+    border-radius: 2vh;
+    background-color: rgba(236, 223, 223, 0.514);
+    width: 13vh;
+    font-family:'Dancing Script', cursive;
+    font-size: x-large;
+    cursor: pointer;
+    color: #7a2636;
+    border: 0.5vh;
+}
+.buttonsearch:hover{
+    border-radius: 2vh;
+    background-color: rgb(240, 179, 179);
+    width: 13vh;
+    font-family:'Dancing Script', cursive;
+    font-size: x-large;
+    cursor: pointer;
+    color: #7a2636;
+    border: 0.5vh;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Theh3{
+    margin-right: 1vh;
+    margin-left: 1vh;
+    font-size: xx-large;
+}
+
+.Selects{
+    background-color: rgba(252, 149, 149, 0.514);
+    height: 4vh;
+    width: 12vh;
+    border-radius: 2vh;
+    font-family:'Dancing Script', cursive;
+    font-size: x-large;
+    cursor: pointer;
+    color: #7a2636;
+    border: 0.5vh;
+}
+
+.Buttonrestart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Buttonrestart1{
+    background-color: rgba(252, 149, 149, 0.514);
+    height: 4vh;
+    width: 35vh;
+    border-radius: 2vh;
+    border: 0.5vh;
+    font-family:'Dancing Script', cursive;
+    font-size: x-large;
+    cursor: pointer;
+    color: #7a2636;
+    margin-top: 3vh;
+}
+.Buttonrestart1:hover{
+    background-color: rgb(245, 148, 148);
+    height: 4vh;
+    width: 35vh;
+    border-radius: 2vh;
+    border: 0.5vh;
+    font-family:'Dancing Script', cursive;
+    font-size: x-large;
+    cursor: pointer;
+    color: #7a2636;
+    margin-top: 3vh;
+}
+
+.linkform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.fourH2{
+    font-size: xx-large;
+}
+
+.Buttontoforms{
+    background-color: rgba(252, 149, 149, 0.514);
+    height: 4vh;
+    width: 35vh;
+    border-radius: 2vh;
+    border: 0.5vh;
+    font-family:'Dancing Script', cursive;
+    font-size: x-large;
+    cursor: pointer;
+    color: #7a2636;
+    margin-top: 3vh;
+}
+
+.Buttontoforms:hover{
+    background-color: rgb(241, 128, 128);
+    height: 4vh;
+    width: 35vh;
+    border-radius: 2vh;
+    border: 0.5vh;
+    font-family:'Dancing Script', cursive;
+    font-size: x-large;
+    cursor: pointer;
+    color: #7a2636;
+    margin-top: 3vh;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+}
